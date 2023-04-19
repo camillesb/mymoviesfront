@@ -16,7 +16,7 @@ function Home() {
 
   //Hook pour initier une requête vers un webservice
 useEffect(() => {
-  fetch('http://localhost:3000/movies')
+  fetch('https://mymoviesback-blush.vercel.app/movies')
  .then(response => response.json())
  .then(data => {
   //console.log(data.results);
